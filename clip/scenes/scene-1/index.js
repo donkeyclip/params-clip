@@ -18,4 +18,5 @@ const clip = new HTMLClip({
 });
 
 clip.addIncident(scaleBig(".container", 2000), 0);
+
 export default clip;
