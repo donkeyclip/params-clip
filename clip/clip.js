@@ -2,6 +2,7 @@ import { HTMLClip } from "@donkeyclip/motorcortex";
 import html from "./clip.html";
 import css from "!!raw-loader!./clip.css";
 import initParams from "./initParams";
+import initParamsValidationRules from "./initParamsValidationRules";
 import scene1 from "./scenes/scene-1";
 import boxClip from "./scenes/scene-2";
 
@@ -10,6 +11,7 @@ export const clip = new HTMLClip({
   css,
   host: document.getElementById("clip"),
   initParams: initParams[0].value,
+  initParamsValidationRules: initParamsValidationRules,
   fonts: [
     {
       type: "google-font",
@@ -24,3 +26,4 @@ export const clip = new HTMLClip({
 
 clip.addIncident(scene1, 0);
 clip.addIncident(boxClip, 0);
+
