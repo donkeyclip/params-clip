@@ -4,7 +4,7 @@ export default [
     value: {
       boxNumber: 25,
       color: "#fff",
-      backgrounColor: "#18191D",
+      backgrounColor: "#16161a",
       radius: "10%",
       boxColor: "#ce5ece",
       text: ["express", "your", "creativity", "with", "code"],
@@ -23,4 +23,3 @@ export default [
   },
 ];
 // eslint-disable-next-line prettier/prettier
-
